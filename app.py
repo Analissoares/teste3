@@ -12,7 +12,7 @@ st.set_page_config(
 
 def main():
     st.title("Mapas no Streamlit")
-    st.subheader("AULA4")
+    st.subheader("Localização de sistemas bancários")
 
     menu = ["Menu", "Mapa"]
     choice = st.sidebar.selectbox("Menu", menu)
