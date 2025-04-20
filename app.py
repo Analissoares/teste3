@@ -11,8 +11,8 @@ st.set_page_config(
 )
 
 def main():
-    st.title("Como adicionar mapas no Streamlit")
-    st.subheader("Cabe nos cadernos do Colab")
+    st.title("Mapas no Streamlit")
+    st.subheader("AULA4")
 
     menu = ["Menu", "Mapa"]
     choice = st.sidebar.selectbox("Menu", menu)
